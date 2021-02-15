@@ -1,16 +1,29 @@
 <template>
-  <div id="app">
-    <router-link></router-link>
-  </div>
+<div class="contianer">
+  <mainMenu></mainMenu>
+
+</div>
+  
 </template>
 
 <script>
-
+import mainMenu from './components/Menu/Menu'
+import { mapGetters, mapActions } from 'vuex'
 export default {
-  name: 'App',
-  components: {
+  components:{
+    mainMenu,
+
+  },
+  methods:{
+
+  },
+  computed:{
+    
   }
+
 }
 </script>
 
+<style>
 
+</style>
